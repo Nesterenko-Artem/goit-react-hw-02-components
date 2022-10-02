@@ -1,4 +1,4 @@
-import { Item, List, Percentage} from './Statistics.styled'; 
+import { Item, List, Percentage } from './Statistics.styled';
 
 
 export const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
@@ -12,6 +12,6 @@ export const Statistics = ({ good, neutral, bad, total, positivePercentage }) =>
             <Item key="positivePercentage">Positive Percentage<Percentage>{positivePercentage}%</Percentage></Item>
          </List>
       </>
-      
+
    )
 }
